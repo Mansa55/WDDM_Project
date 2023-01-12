@@ -1,11 +1,21 @@
-body {background-color: rgb(124, 143, 223);}
+body 
+    {background-color: rgb(124, 143, 223);
+}
 p { font-size: 120%; color:aliceblue} 
-p.important {border-style: solid; display: inline-block; border-width: 5px; border-color: bisque;}
+p.important {border-style: solid; display: inline-block; border-width: 5px; border-color: bisque; }
 .center { display: block; margin: auto; }
 .centertext { text-align: center; }
-figure {float: left; text-align: center; font-style: italic; font-size: smaller; text-indent: 0; border: thin silver solid; padding-top: 100;}
-figcaption {caption-side: bottom;}
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-p{
-    font-family: 'Roboto', sans-serif;
+figure {
+        float: left; 
+    text-align: center; 
+    font-style: italic; 
+    font-size: smaller; 
+    text-indent: 0; 
+    border: thin silver solid; 
+    padding-top: 100;
 }
+figcaption {
+    caption-side: bottom;}
+    
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+p{font-family: 'Roboto', sans-serif;}

@@ -23,6 +23,7 @@ console.log("PI: " + PI);
 //PI2 = 3.14159265359;
 
 // always use const when you know the value should not be changed
+
 // using came1Case is the most common way of naming variables
 
 var firstName = "Brahim";
@@ -46,7 +47,9 @@ console.log("the incremented number: " + incrementNum);
 
 function myClickFunction() {console.log("The button was clicked!!!");}
 
-const myCar = new Car ("Mini", "Cooper", "2023", "Red");
-console.log("MY CAR\nMAKE: " + myCar.make + "\nMODEL: " + myCar.model + 
-"\nYEAR: " + myCar.year + "\nCOLOR: " + myCar.color);
+const myCar = new Car("Mini", "Cooper", "2023", "Red");
+console.log("MY CAR\nMAK: " + myCar.make + "\nMODEL: " + myCar.model + "\nYEAR: " + myCar.year + "\nCOLOR: " + myCar.color);
+
 myCar.changeColor("Black");
+
+console.log("MY CAR\nMAKE: " + myCar.make + "\nMODEL: " + myCar.model + "\nYEAR: " + myCar.year + "\nCOLOR: " + myCar.color);
